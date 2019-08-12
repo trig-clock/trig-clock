@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Trig Clock</title>
+        <style>
+            h1 {
+                color: white; text-align: center;
+            }
+            h2 {
+                color: white;
+            }
+            p, ul, li {
+                color: white;
+            }
+            #trig-clock {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        </style>
+        <meta charset="UTF-8"/>
+    </head>
+    <body style="background-color: black;">
+        <div id="container">
+            <h1>Trig Clock</h1>
+            <iframe id='trig-clock' name='trig-clock' src='js/trig-clock.html' height="600" width="800" frameBorder="0"></iframe>
+            <h2>Why?</h2>
+            <p>I just think it's kinda neat. It's based on simple trigonometry:</p>
+                <ul>
+                    <li>00:00:00 is 0°, 06:00:00 is 90°, and so on.</li>
+                    <li>Therefore, roughly, first quarter is late night, second is morning, third is afternoon, fourth is evening and early night.</li>
+                    <li>Also, it doesn't require you to guess if it's AM or PM.</li>
+                </ul>
+                <p>so I happen to find it an elegant alternative to the "traditional" analog clock.</p>
+            <p>Also I was bored, and it's not like things need a reason to exist.</p>
+            <p>I also find the counterintuitive idea of a anti-clockwise clock amusing :^)</p>
+            <h2>How?</h2>
+            <p>I made a desktop version of this using Pygame, and this version uses PyJS and Pyjsdl to compile it to Javascript.</p>
+            <p>Yeah, this is cursed.</p>
+            <h2>It's showing UTC instead of local time!</h2>
+            <p>Turn off the "no fingerprinting" setting in your browser.</p>
+        </div>        
+    </body>
+</html>
