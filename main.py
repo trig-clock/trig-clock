@@ -2,7 +2,6 @@ from __future__ import division
 import pyjsdl
 import math
 import time
-from __pyjamas__ import JS
 
 WIDTH = 800
 HEIGHT = 600
